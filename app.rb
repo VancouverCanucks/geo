@@ -14,7 +14,7 @@ class Geo < Sinatra::Base
     content_type :js
     @ip = request.ip
     @callback = params[:callback]
-    @lookup = ip_lookup '24.137.200.13'
+    @lookup = ip_lookup @ip
     erb :out
   end
   
