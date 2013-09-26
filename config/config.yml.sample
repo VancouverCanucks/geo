@@ -1,0 +1,5 @@
+geoservice:
+  apikey: API_KEY_HERE
+  region:
+    key: regionName
+    value: BRITISH COLUMBIA
