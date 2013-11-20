@@ -1,4 +1,5 @@
-@dir = File.expand_path(File.join(File.dirname(__FILE__), '.'))
+#@dir = File.expand_path(File.join(File.dirname(__FILE__), '.'))
+@dir = '/srv/www/geogate'
 
 worker_processes 10
 working_directory @dir
